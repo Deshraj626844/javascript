@@ -13,11 +13,11 @@ const User={
     lastLoginDays:["Monday","Wednesday"]
 }
 
-// console.log(User.age);
-// console.log(User["location"]);
-// User.email="deshraj@amazon.com";
-// Object.freeze(User.email);
-// console.log(User);
+console.log(User.age);
+console.log(User["location"]);
+User.email="deshraj@amazon.com";
+Object.freeze(User.email);
+console.log(User);
 
 User.greeting = function(){
     console.log("Hello user");
