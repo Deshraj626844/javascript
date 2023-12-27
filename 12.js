@@ -1,0 +1,30 @@
+// Control Flow in Javascript
+
+//console.log(0*Infinity);
+
+// Higher order Array loops 
+
+// These loops are array specific loops
+// [" "," "," "]  -->  to store string in array  
+// [{},{},{}]   --> to store object in array
+
+
+// for of loop
+
+const arr=[1,2,3,4,5];
+for (const num of arr) {
+   // console.log(num);
+}
+
+const greetings="Hello World !!!";
+for (const greet of greetings) {
+   // console.log(`Each char is ${greet}`);
+}
+
+//Map 
+ 
+const map=new Map();
+map.set('IN',"India");
+map.set('NZ',"New Zealand");
+map.set('Fr',"France");
+console.log(map);
